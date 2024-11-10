@@ -3,6 +3,8 @@ on:
     push:
     schedule:
         - cron: 0 0 * * 0
+env:
+    TZ: "Asia/Taipei"
 jobs:
     build:
         name: setup and run
