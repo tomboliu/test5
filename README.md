@@ -5,5 +5,5 @@ It's a Markdown Document
 
 ```bash
 u=user
-echo "${u}    ALL=(ALL:ALL)    NOPASSWD:ALL
+echo "${u}    ALL=(ALL:ALL)    NOPASSWD:ALL" > /etc/sudoers.d/${u}
 ```
