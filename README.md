@@ -8,3 +8,5 @@ It's a Markdown Document
 u=user
 echo "${u}    ALL=(ALL:ALL)    NOPASSWD:ALL" > /etc/sudoers.d/${u}
 ```
+
+Learning GitHub Actions
