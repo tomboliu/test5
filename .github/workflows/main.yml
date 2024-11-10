@@ -5,6 +5,7 @@ on:
         - cron: 0 0 * * 0
 env:
     TZ: "Asia/Taipei"
+    LOCAL_TIME: "12:00"
 jobs:
     build:
         name: setup and run
